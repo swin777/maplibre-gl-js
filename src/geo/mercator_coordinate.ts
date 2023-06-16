@@ -1,5 +1,5 @@
-import LngLat, {earthRadius} from '../geo/lng_lat';
-import type {LngLatLike} from '../geo/lng_lat';
+import LngLat, {earthRadius} from './lng_lat';
+import type {LngLatLike} from './lng_lat';
 import {IMercatorCoordinate} from '@maplibre/maplibre-gl-style-spec';
 
 /*

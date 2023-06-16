@@ -13,8 +13,8 @@ import type CullFaceMode from '../gl/cull_face_mode';
 import type {UniformBindings, UniformValues, UniformLocations} from './uniform_binding';
 import type {BinderUniform} from '../data/program_configuration';
 import {terrainPreludeUniforms, TerrainPreludeUniformsType} from './program/terrain_program';
-import type {TerrainData} from '../render/terrain';
-import Terrain from '../render/terrain';
+import type {TerrainData} from './terrain';
+import Terrain from './terrain';
 
 export type DrawMode = typeof WebGL2RenderingContext.LINES | typeof WebGL2RenderingContext.TRIANGLES | typeof WebGL2RenderingContext.LINE_STRIP;
 

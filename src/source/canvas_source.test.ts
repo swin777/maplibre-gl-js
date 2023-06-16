@@ -1,4 +1,4 @@
-import CanvasSource from '../source/canvas_source';
+import CanvasSource from './canvas_source';
 import Transform from '../geo/transform';
 import {Event, Evented} from '../util/evented';
 import {extend} from '../util/util';

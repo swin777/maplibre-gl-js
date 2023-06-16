@@ -33,6 +33,16 @@ import RasterTileSource from './source/raster_tile_source';
 import VectorTileSource from './source/vector_tile_source';
 import VideoSource from './source/video_source';
 
+import {MapMouseEvent, MapTouchEvent, MapWheelEvent} from './ui/events';
+import BoxZoomHandler from './ui/handler/box_zoom';
+import ScrollZoomHandler from './ui/handler/scroll_zoom';
+import DragRotateHandler from './ui/handler/shim/drag_rotate';
+import DragPanHandler from './ui/handler/shim/drag_pan';
+import KeyboardHandler from './ui/handler/keyboard';
+import DoubleClickZoomHandler from './ui/handler/shim/dblclick_zoom';
+import TwoFingersTouchZoomRotateHandler from './ui/handler/shim/two_fingers_touch';
+import {TwoFingersTouchPitchHandler} from './ui/handler/two_fingers_touch';
+
 const version = packageJSON.version;
 
 export type * from '@maplibre/maplibre-gl-style-spec';
@@ -65,6 +75,19 @@ const exported = {
     RasterTileSource,
     VectorTileSource,
     VideoSource,
+
+    MapMouseEvent,
+    MapTouchEvent,
+    MapWheelEvent,
+    BoxZoomHandler,
+    ScrollZoomHandler,
+    DragPanHandler,
+    DragRotateHandler,
+    KeyboardHandler,
+    DoubleClickZoomHandler,
+    TwoFingersTouchZoomRotateHandler,
+    TwoFingersTouchPitchHandler,
+
     /**
      * Initializes resources like WebWorkers that can be shared across maps to lower load
      * times in some situations. `maplibregl.workerUrl` and `maplibregl.workerCount`, if being

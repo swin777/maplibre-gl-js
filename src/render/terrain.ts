@@ -10,7 +10,7 @@ import SegmentVector from '../data/segment';
 import VertexBuffer from '../gl/vertex_buffer';
 import IndexBuffer from '../gl/index_buffer';
 import Painter from './painter';
-import Texture from '../render/texture';
+import Texture from './texture';
 import type Framebuffer from '../gl/framebuffer';
 import Point from '@mapbox/point-geometry';
 import MercatorCoordinate from '../geo/mercator_coordinate';

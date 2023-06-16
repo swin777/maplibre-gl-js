@@ -1,5 +1,5 @@
 import type {MousePanHandler} from '../mouse';
-import type TouchPanHandler from './../touch_pan';
+import type TouchPanHandler from '../touch_pan';
 
 export type DragPanOptions = {
     linearity?: number;

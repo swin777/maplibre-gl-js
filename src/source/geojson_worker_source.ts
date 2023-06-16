@@ -12,7 +12,7 @@ import {createExpression} from '@maplibre/maplibre-gl-style-spec';
 import type {
     WorkerTileParameters,
     WorkerTileCallback,
-} from '../source/worker_source';
+} from './worker_source';
 
 import type Actor from '../util/actor';
 import type StyleLayerIndex from '../style/style_layer_index';

@@ -75,13 +75,13 @@ export type SourceClass = {
     new (...args: any): Source;
 } & SourceStatics;
 
-import vector from '../source/vector_tile_source';
-import raster from '../source/raster_tile_source';
-import rasterDem from '../source/raster_dem_tile_source';
-import geojson from '../source/geojson_source';
-import video from '../source/video_source';
-import image from '../source/image_source';
-import canvas from '../source/canvas_source';
+import vector from './vector_tile_source';
+import raster from './raster_tile_source';
+import rasterDem from './raster_dem_tile_source';
+import geojson from './geojson_source';
+import video from './video_source';
+import image from './image_source';
+import canvas from './canvas_source';
 
 import type {SourceSpecification} from '@maplibre/maplibre-gl-style-spec';
 

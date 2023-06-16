@@ -1,6 +1,6 @@
 import Map from '../../ui/map';
-import {extend} from '../../util/util';
-import Dispatcher from '../../util/dispatcher';
+import {extend} from '../util';
+import Dispatcher from '../dispatcher';
 import {setWebGlContext} from './mock_webgl';
 
 export function createMap(options?, callback?) {

@@ -15,7 +15,7 @@ import type VertexBuffer from '../gl/vertex_buffer';
 import type IndexBuffer from '../gl/index_buffer';
 import type {UniformValues} from './uniform_binding';
 import type {CircleUniformsType} from './program/circle_program';
-import type {TerrainData} from '../render/terrain';
+import type {TerrainData} from './terrain';
 
 export default drawCircles;
 

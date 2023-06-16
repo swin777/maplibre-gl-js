@@ -1,6 +1,6 @@
-import WorkerTile from '../source/worker_tile';
-import Wrapper, {Feature} from '../source/geojson_wrapper';
-import {OverscaledTileID} from '../source/tile_id';
+import WorkerTile from './worker_tile';
+import Wrapper, {Feature} from './geojson_wrapper';
+import {OverscaledTileID} from './tile_id';
 import StyleLayerIndex from '../style/style_layer_index';
 import {WorkerTileParameters} from './worker_source';
 import Actor from '../util/actor';

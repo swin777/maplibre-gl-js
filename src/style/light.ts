@@ -10,7 +10,7 @@ import {
 
 import type {StylePropertySpecification, LightSpecification} from '@maplibre/maplibre-gl-style-spec';
 import type EvaluationParameters from './evaluation_parameters';
-import type {StyleSetterOptions} from '../style/style';
+import type {StyleSetterOptions} from './style';
 import {Properties, Transitionable, Transitioning, PossiblyEvaluated, DataConstantProperty} from './properties';
 
 import type {

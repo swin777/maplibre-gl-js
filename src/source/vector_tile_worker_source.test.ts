@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import vt from '@mapbox/vector-tile';
 import Protobuf from 'pbf';
-import VectorTileWorkerSource from '../source/vector_tile_worker_source';
+import VectorTileWorkerSource from './vector_tile_worker_source';
 import StyleLayerIndex from '../style/style_layer_index';
 import {fakeServer, FakeServer} from 'nise';
 import Actor from '../util/actor';

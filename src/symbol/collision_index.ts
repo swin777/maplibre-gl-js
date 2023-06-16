@@ -5,9 +5,9 @@ import PathInterpolator from './path_interpolator';
 import * as intersectionTests from '../util/intersection_tests';
 import GridIndex from './grid_index';
 import {mat4, vec4} from 'gl-matrix';
-import ONE_EM from '../symbol/one_em';
+import ONE_EM from './one_em';
 
-import * as projection from '../symbol/projection';
+import * as projection from './projection';
 
 import type Transform from '../geo/transform';
 import type {SingleCollisionBox} from '../data/bucket/symbol_bucket';
